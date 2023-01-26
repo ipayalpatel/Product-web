@@ -91,7 +91,7 @@ function NavBar() {
             <Form.Control
               type="search"
               placeholder="Search"
-              className="me-2"
+              className="me-4"
               aria-label="Search"
             />
             {/* <BsSearch className='nav-icon'/> */}
@@ -99,7 +99,7 @@ function NavBar() {
           <div>
             <BsPerson className="nav-icon" />
           </div>
-          <span className="user">Login</span>
+          
           <BsCart3 className="nav-icon" />
           <span className="user">Cart:{items.length} </span>
         </Navbar.Collapse>
